@@ -4,6 +4,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+
 
 a {
     text-decoration: none;
@@ -12,14 +24,48 @@ a {
 ul,
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 button {
     cursor: pointer;
 }
 
+img {
+        display: block;
+}
 
 
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+
+
+
+
+.container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.page-header{
+        margin-bottom: 13px;
+        padding-bottom: ;
+}
+
+.logo,
+.logo-part{
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+}
 
 .logo {
         font-family: "Raleway", sans-serif;
@@ -39,6 +85,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    padding-right: 76px;
 }
 
 .menu-link{
@@ -48,6 +95,9 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-right: 40px;
+        padding-bottom: 24px;
 }
 
 .menu-link:hover {
@@ -72,6 +122,9 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-top: 24px;
+        padding-right: ;
+        padding-bottom: 24px;
 }
 
 .address-link:hover,
@@ -81,7 +134,7 @@ button {
 
 
 .section-hero {
-    background: #2e2f42;
+        background: #2e2f42;
 }
 
 .hero-title {
@@ -92,7 +145,15 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 39px;
+        padding-top: 128px;
+        padding-right: 486px;
+        padding-left: 458px;
 }
+
+
+
+      
 
 .hero-btn {
         font-family: "Roboto", sans-serif;
@@ -102,8 +163,8 @@ button {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4D5AE5;
-
-}
+        padding: 16px 32px 14.51px 32px;
+        
 
 .hero-btn:hover {
 background-color: #404BBF;  
@@ -114,6 +175,14 @@ background-color: #404BBF;
 }
 
 
+.list-item {
+        padding-top: 133px 144px 110px 156px;
+        margin-right: 24px;
+       
+}
+
+
+
 .title {
         
         font-weight: 500;
@@ -121,6 +190,7 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .text {
@@ -135,6 +205,7 @@ background-color: #404BBF;
 
 .section-team {
         background-color: #F4F4FD;
+        margin-bottom: 110px;
 }
  
 .team-title {
@@ -146,12 +217,18 @@ background-color: #404BBF;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
+        padding-top: 120px;
+        padding-right: 639px;
+        padding-left: 639px;
        
 }
 
 
 .team-list-item {
     background-color: #FFFFFF;
+    margin-right: 24px;
+    padding-bottom: 120px;
 }
 
 
@@ -165,6 +242,10 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2e2f42;
+        margin-top: 32px;
+        margin-bottom: 8px;
+        padding-right: 65px;
+        padding-left: 65px;
 }
 
 .text-profession {
@@ -175,6 +256,8 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        padding-right: 52px;
+        padding-left: 52px;
 }
 
 .portfolio-title {
@@ -186,6 +269,9 @@ background-color: #404BBF;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
+        padding-right: 455px;
+        padding-left: 455px;
 }
 
 .portfolio-list-title {
@@ -195,10 +281,14 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 32px 226px 8px 16px;
 }
 
 
-
+.portfolio-list-item {
+        margin-right: 24px;
+        margin-bottom: 48px;
+}
 
 
 
@@ -210,12 +300,20 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding: 8px 314px 32px 16px;
 }
 
 
 
 .page-footer {
     background: #2e2f42;
+}
+
+
+
+
+.footer-section{
+        padding: 100px 1020px 100px 156px;
 }
 
 
