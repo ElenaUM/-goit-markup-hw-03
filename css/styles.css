@@ -184,8 +184,9 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff; 
-        margin-bottom: 19.5px;
-               
+        display: block;
+        margin-bottom: 39px;
+          
        
 }
 
@@ -202,8 +203,9 @@ img {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4D5AE5;
-       margin-top: 19.5px;
+       margin: 0 auto;
        padding: 16px 32px 16px 32px;
+       display: block;
         border: none;
         border-radius: 4px;
 }
@@ -232,6 +234,19 @@ padding-top: 119px;
 padding-bottom: 106px;
 }
 
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 
 .title {
         
@@ -342,6 +357,18 @@ padding-bottom: 106px;
         gap: 24px;
 }
 
+.portfolio-list-item {
+        display: block;
+        max-width: 100%;
+}
+
+
+.portfolio-lisy-img {
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+}
+       
 
 .portfolio-list-title {
         
@@ -353,11 +380,6 @@ padding-bottom: 106px;
         padding-top: 32px;
 }
 
-
-.portfolio-list-item {
-        display: block;
-        max-width: 100%;
-}
 
 
 
@@ -382,14 +404,14 @@ padding-bottom: 106px;
         
 }
 
-.footer-container {
+.footer-conteiner { 
+        padding-top: 100px;
+                padding-right: 1020px;
+                padding-bottom: 100px;
+                padding-left: 156px;
+        }
         
-            padding-top: 100px;
-            padding-right: 1020px;
-            padding-bottom: 100px;
-            padding-left: 156px;
-}
-
+           
 .footer-logo {
             font-family: "Raleway", sans-serif;
             font-weight: 700;
