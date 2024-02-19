@@ -455,8 +455,8 @@ border-radius: 0px 0px 4px 4px;
 
 
 .page-footer {
-        width: 1440px;
-        height: 312px;
+        /* width: 1440px; */
+        /* height: 312px; */
         background-color: #2e2f42;
         padding: 100px 0;
 }
