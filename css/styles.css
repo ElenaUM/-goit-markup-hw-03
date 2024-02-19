@@ -106,7 +106,7 @@ img {
         padding: 24px 0;
         display: block;
         /* margin-right: 40px; */
-        gap: 40px
+        gap: 40px;
 }
 
 
@@ -366,7 +366,9 @@ border-radius: 0px 0px 4px 4px;
 
 .section-portfolio {
         margin-bottom: 118px;
-        padding: 120px 0 120px 0)
+        
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -403,10 +405,11 @@ border-radius: 0px 0px 4px 4px;
 }
       
 
-.list-item-second {
+/* .list-item-second { 
         margin-top: 48px;
-        margin-bottom: 0;
-}
+                margin-bottom: 0;
+        }*/
+       
 
 
 .container-portfolio-list {
