@@ -147,14 +147,16 @@ img {
 .menu-address {
         display: flex;
         column-gap: 40px;
+        gap: 40px;
        
         
 }
 
 
-.address-item {
+/* .address-item { 
         gap: 40px;
-}
+        }*/
+       
 
 .address-link {
         
@@ -395,12 +397,13 @@ border-radius: 0px 0px 4px 4px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+        row-gap: 48px;
 }
 
 .portfolio-list-item {
         display: block;
         max-width: 100%;
-        row-gap: 48px;
+        /* row-gap: 48px; */
         margin-bottom: 48px;
 }
       
